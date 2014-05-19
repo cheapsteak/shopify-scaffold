@@ -3,7 +3,7 @@ shopify-scaffold
 
 for large-scale theme development
 
-gives you 
+Gives you:  
 
 1. SASS (with @imports)
 2. folder structures
