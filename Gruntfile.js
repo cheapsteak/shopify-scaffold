@@ -65,7 +65,7 @@ module.exports = function(grunt) {
           { 
             expand: true,
             flatten: true,
-            src: ['images/**/*.{png,jpg,svg,gif}'],
+            src: ['images/**/*'],
             dest:'deploy/assets/'
           },
           { 
@@ -135,7 +135,6 @@ module.exports = function(grunt) {
 
     shopify: {
       options: {
-
         api_key: process.env.API_KEY,
         password: process.env.PASSWORD,
         url: "scaffold.myshopify.com",
