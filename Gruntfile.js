@@ -137,7 +137,7 @@ module.exports = function(grunt) {
       options: {
         api_key: process.env.API_KEY,
         password: process.env.PASSWORD,
-        url: "scaffold.myshopify.com",
+        url: "your.shopify.url",
         base: "deploy/"
       }
     },
