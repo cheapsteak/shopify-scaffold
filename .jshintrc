@@ -1,0 +1,23 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "unused": true,
+  "boss": true,
+  "eqnull": true,
+  "globals": {
+    "document": true,
+    "window": true,
+    "console": true,
+    "alert": true,
+    "Image": true,
+    "$": true,
+    "jQuery": true,
+    "Shopify": true
+  }
+}
