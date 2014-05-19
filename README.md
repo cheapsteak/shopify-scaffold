@@ -10,7 +10,7 @@ Gives you:
 3. Autoprefixer
 4. source maps
 
-# How to use it
+## How to use it
 
 [grunt-shopify](https://github.com/wilr/grunt-shopify) is used to keep files in `deploy/` synced with the server. 
 
@@ -31,7 +31,7 @@ If you don’t know how to set environment variables, you could either check out
 
 Open up a console in the project’s root directory, run `grunt`, and you’re good to go!
 
-# Folder structure
+## Folder structure
 ```
 deploy/
 images/
@@ -58,7 +58,7 @@ background: url( "#{'{{ "splash-1.jpg" | asset_url }}'}" )
 * `scripts/` js files in the top directory will be concated and uglified to `deploy/assets/main.js`,  
   files in `scripts/plugins` will be concated and uglified to `deploy/assets/plugins.js`
 
-# Source Maps
+## Source Maps
 We're serving source files for the sourcemaps on `127.0.0.1:9000`  
 If a different port number is desired, set a `PORT` environment variable, or change the specified port in the `connect` and `copy` configs:
 ```javascript
