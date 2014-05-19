@@ -1,4 +1,4 @@
-/*global process: false, module:false */
+/*global process: false, module: false */
 module.exports = function(grunt) {
   grunt.initConfig({
     jshint: {
