@@ -29,10 +29,13 @@ module.exports = function(grunt) {
         options: {
           sourcemap: true
         },
-        files: {
-          '.tmp/sass/main.css.liquid': 'sass/main.sass',
-          '.tmp/sass/checkout.css.liquid': 'sass/checkout.scss'
-        }
+        files: [{
+          expand: true,
+          cwd: 'sass',
+          src: ['*.{sass,scss}'],
+          dest: '.tmp/sass',
+          ext: '.css.liquid'
+        }]
       }
     },
     autoprefixer: {
