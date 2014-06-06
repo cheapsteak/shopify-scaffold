@@ -8,7 +8,7 @@ Gives you:
 1. SASS (with @imports)
 2. folder structures
 3. Autoprefixer
-4. source maps
+~~ 4. source maps ~~ presently broken X(
 
 ## How to use it
 
